@@ -4,8 +4,51 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb6e38b731ee7c2bd3bb8e9eb0145e57",
+    "content-hash": "bd7fdd9bc87bd642804e4c5bf321af72",
     "packages": [
+        {
+            "name": "brunoduarte/database-connection",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brunohmduarte/database-connection.git",
+                "reference": "65910e5e6c9439fa25b012ab6b01a7b70729a737"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brunohmduarte/database-connection/zipball/65910e5e6c9439fa25b012ab6b01a7b70729a737",
+                "reference": "65910e5e6c9439fa25b012ab6b01a7b70729a737",
+                "shasum": ""
+            },
+            "require": {
+                "monolog/monolog": "^2",
+                "php": "^7.0 || ^8.0",
+                "psr/log": "^1",
+                "vlucas/phpdotenv": "^5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BrunoDuarte\\DatabaseConnection\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Duarte",
+                    "email": "bruno.meddua@gmail.com"
+                }
+            ],
+            "description": "Connection to multiple databases",
+            "support": {
+                "issues": "https://github.com/brunohmduarte/database-connection/issues",
+                "source": "https://github.com/brunohmduarte/database-connection/tree/1.0.1"
+            },
+            "time": "2025-08-02T17:48:18+00:00"
+        },
         {
             "name": "graham-campbell/result-type",
             "version": "v1.1.3",
@@ -626,9 +669,7 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {
-        "php": "^7.4 || ^8.0"
-    },
+    "platform": [],
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }

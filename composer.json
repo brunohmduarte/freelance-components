@@ -1,0 +1,20 @@
+{
+    "name": "brunoduarte/full-login-system",
+    "description": "Full login system",
+    "type": "project",
+    "license": "GLP-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Brunoduarte\\FullLoginSystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bruno Duarte",
+            "email": "bruno.meddua@gmail.com"
+        }
+    ],
+    "require": {
+        "brunoduarte/database-connection": "^1.0"
+    }
+}
