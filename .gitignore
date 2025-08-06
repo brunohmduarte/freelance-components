@@ -1,3 +1,4 @@
 .devilbox/
 .vscode/
+.env
 vendor/

@@ -5,7 +5,7 @@
     "license": "GLP-3.0-or-later",
     "autoload": {
         "psr-4": {
-            "Brunoduarte\\FullLoginSystem\\": "src/"
+            "App\\FullLoginSystem\\": "src/"
         }
     },
     "authors": [
