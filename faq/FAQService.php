@@ -25,7 +25,18 @@ class FAQService
      */
     public function __construct()
     {
-        $this->repository = new FAQRepository();
+        $this->repository = new FAQRepository('mysql', '127.0.0.1', 'freelance', 'root', 'magento');
+        $this->connect();
+    }
+
+    /**
+     * Connect to database
+     * 
+     * @return void
+     */
+    public function connect() 
+    {
+        $this->repository->connect();
     }
 
     /**

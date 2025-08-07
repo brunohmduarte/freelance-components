@@ -1,5 +1,4 @@
 <?php
-    // index.php (Frontend com jQuery + PHP 7.4 + HTML5)
     require_once './FAQService.php';
     
     $faqService = new FAQService();

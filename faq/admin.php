@@ -1,5 +1,4 @@
 <?php
-// admin.php - Painel de Cadastro de Perguntas e Respostas
 require_once './FAQService.php';
 
 $faqService = new FAQService();
