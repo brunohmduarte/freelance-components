@@ -1,0 +1,22 @@
+{
+    "name": "brunoduarte/user-authentication-system",
+    "description": "User authentication system",
+    "type": "project",
+    "license": "GLP-3.0",
+    "autoload": {
+        "psr-4": {
+            "BrunoDuarte\\UserAuthenticationSystem\\": "src/",
+            "BrunoDuarte\\DatabaseConnection\\": "vendor/brunoduarte/database-connection/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bruno Duarte",
+            "email": "bruno.medua@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "brunoduarte/database-connection": "^1.0"
+    }
+}
