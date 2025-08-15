@@ -1,0 +1,22 @@
+{
+    "name": "brunoduarte/event-notifier",
+    "description": "Componente para gerenciamento de notificações de eventos no sistema",
+    "type": "library",
+    "license": "GLP-3.0",
+    "autoload": {
+        "psr-4": {
+            "BrunoDuarte\\EventNotifier\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bruno Duarte",
+            "email": "bruno.meddua@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "brunoduarte/database-connection": "^1.0"
+    }
+}

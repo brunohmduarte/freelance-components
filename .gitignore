@@ -1,2 +1,5 @@
 .devilbox/
 .vscode/
+vendor/
+.env
+composer.lock
